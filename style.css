@@ -1,0 +1,67 @@
+body {
+    margin: 0 auto;
+    /* Puedes cambiar el color de fondo (background-color) si lo deseas */
+    background-color: rgb(15, 15, 15);
+    color: whitesmoke;
+    max-width: 1200px;
+    min-width: 500px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+svg {
+    border: solid 4px white;
+}
+
+/* Completar este archivo con los que estime conveniente */
+
+.tooltip {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: 0;
+    border-radius: 8px;
+    padding: 10px;
+    pointer-events: none; 
+}
+.paragraph{
+    text-align: justify;
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px;
+}
+
+#mercury-text{
+    color: #FFD700;
+}
+#venus-text{
+    color: #FF8C00;
+}
+#earth-text{
+    color: #00FFFF;
+}
+#mars-text{
+    color: #B22222;
+}
+#jupiter-text{
+    color: #DEB887;
+}
+#saturn-text{
+    color: #FF7F50;
+}
+#uranus-text{
+    color: #6A5ACD;
+}
+#neptune-text{
+    color: #0000CD;
+}
+#pluto-text{
+    color: #FFF8DC;
+}
